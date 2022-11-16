@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprint 3 Jared Inmobiliaria</title>
+
+    <script src="https://kit.fontawesome.com/1a58ad0bca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header id="info">
+        <p>1441 Market St, San Francisco</p>
+        <p>(123) 456-7890</p>
+        <p>Mon - Sun: 8:00am - 6:00pm</p>
+        <p id="login-header">LOGIN/REGISTER</p>
+    </header>
+    <i class="fa-solid fa-bars" id="btn_menu"></i>
+    <div class="back_nav"></div>
+    <div id="nav-bar">
+        <nav>
+            <img src="./Images/1Header/Logo.png" alt="Casa Royal logo" />
+            <h5>HOMEPAGE</h5>
+            <h5>PROPERTIES</h5>
+            <h5>AGENCIES</h5>
+            <h5>PAGES</h5>
+            <h5>ABOUT</h5>
+            <h5>CONTACT</h5>
+        </nav>
+
+        <h5>COMPARE</h5>
+        <button>SUBMIT LISTING</button>
+    </div>
+
+    <div id="header">
+        <div id="text-header">
+            <h1>Let Us Guide You Home</h1>
+            <h4>Find the house of your dreams</h4>
+        </div>
+        <div id="select-header">
+            <div class="select-legend">
+                <legend for="type">Type</legend>
+                <select name="type" id="type">
+                    <option selected value="">Select Type</option>
+                    <option value="house">house</option>
+                    <option value="property">property</option>
+                    <option value="local shop">local shop</option>
+                    <option value="apartament">apartament</option>
+                </select>
+            </div>
+            <div class="select-legend">
+                <legend for="ubication">Ubication</legend>
+                <select name="ubication" id="ubication">
+                    <option selected value="">Select Ubication</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="New york">New York</option>
+                    <option value="Beverly Hills">Beverly Hills, CA</option>
+                    <option value="California">California</option>
+                </select>
+            </div>
+            <input disabled type="text" placeholder="Searh for properties, suburbs or keywords…" />
+            <button id="find-properties">FIND PROPERTIES</button>
+        </div>
+    </div>
+    <section class="cards-section">
+        <div class="titles">
+            <span>CASAROYAL REAL ESTATE AGENCY</span>
+            <p><strong>Featured </strong> Properties</p>
+        </div>
+        <div id="cards-output">
+            <!--  <div class="cards">
+
+                <div class="cardsUp">
+                    <div class="type-status">
+                        <div class="type">casa</div>
+                        <div class="status">for sale</div>
+                    </div>
+                    <div class="price">320.000 usd</div>
+                    <div class="favs">🤍</div>
+                    <img class="img"
+                        src=https://unviajealamedida.com/wp-content/uploads/2018/08/anna-sullivan-635346-unsplash-768x576.jpg>
+                </div>
+                <div class="cardsDown">
+                    <div class="ubication">Beverly Hills</div>
+                    <div class="name">272 S Rexford Dr, Beverly Hills, CA 90212, US</div>
+                    <div class="owner">Saul Montes</div>
+                    <hr>
+                    <div class="icons">
+                        <img src="./Images/2 featured properties/Area Icon.svg" alt=""><span class="area">150m2</span>
+                        <img src="./Images/2 featured properties/Garage Icon.svg" alt=""><span class="parking">2</span>
+                        <img src="./Images/2 featured properties/Bathroom Icon.svg" alt=""><span class="wc">2</span>
+                        <img src="./Images/2 featured properties/Bedroom Icon.svg" alt=""><span class="rooms">3</span>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <button id= "all-properties" class="all-buttons">ALL PROPERTIES</button>
+
+    </section>
+
+    <section class="hot-deal-index">
+        <div class="titles">
+            <span>CASAROYAL REAL ESTATE AGENCY</span>
+            <p><strong>Hot </strong> Deal</p>
+        </div>
+        <div class="cards-details">
+
+            <div class="cardsLeft">
+                <div class="photos">Photos (4)</div>
+                <div class="favs-detail">🤍</div>
+                <img class="img-detail" src="Images/3 Hot Deal/isaac-benhesed-249429-unsplash-1.png">
+                <img class="img-detail2" src=" https://p1.pxfuel.com/preview/224/930/354/architecture-buildings-infrastructure-blue.jpg">
+               
+            </div>
+            <div class="cardsRight">
+                <div class="status-detail">House for sale</div>
+                <div class="name-detail">
+                    <h2>272 S Rexford Dr, Beverly Hills, CA 90212, US</h2>
+                </div>
+                <div class="ubication-detail">Beverly Hills</div>
+                <div class="price-detail">From 320.000 usd</div>
+                <div class="description">
+                    <h3>Description</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+                    dolores voluptate facere dolorum nam quis animi aliquam excepturi. Doloremque quidem odio
+                    maiores omnis amet cupiditate, eius labore expedita deserunt. Nemo?
+                </div>
+                <div class="contact">Contact with Saul Montes: 123456789</div>
+                <div class="icons-detail">
+                    <img src="Images/3 Hot Deal/Area Icon.png" alt=""><span class="area">150m2</span>
+                    <img src="Images/3 Hot Deal/Bathroom Icon.png" alt=""><span class="wc">2
+                        Bed(s)</span>
+                    <img src="Images/3 Hot Deal/Bedroom Icon.png" alt=""><span class="rooms">3
+                        Bath(s)</span>
+                    <img src="Images/3 Hot Deal/Garage Icon.png" alt=""><span class="parking">2
+                        Garage(s)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="properties-by-area">
+        <div class="titles">
+            <span>CASAROYAL REAL ESTATE AGENCY</span>
+            <p><strong>Properties</strong> by Area</p>
+        </div>
+        <div class="useless-section">
+            <img src="Images/4 Properties Area/Section - Properties by Areaok.png">
+        </div>
+
+    </section>
+    <section class="our-agents">
+        <div class="titles">
+            <span>CASAROYAL REAL ESTATE AGENCY</span>
+            <p><strong>Our</strong> agents</p>
+        </div>
+        <div class="useless-section2">
+            <img src="Images/5 Our agents/Agent Card 1.png">
+            <img src="Images/5 Our agents/Agent Card 2.png">
+            <img src="Images/5 Our agents/Agent Card 3.png">
+        </div>
+        <img id="dots" src="Images/5 Our agents/Navigation.png">
+    </section>
+    <section>
+
+        <div class="useless-section3">
+            <img src="Images/6 Sell Properties/Section - Sell Property.png">
+        </div>
+    </section>
+    <section class="real-estate">
+        <div class="titles">
+            <span>CASAROYAL REAL ESTATE AGENCY</span>
+            <p><strong>Real Estate</strong> Agencies</p>
+        </div>
+        <div class="useless-section2">
+            <img src="Images/7 Agencies/Agency Card 1.png">
+            <img src="Images/7 Agencies/Agency Card 2.png">
+            <img src="Images/7 Agencies/Agency Card 3.png">
+        </div>
+    </section>
+    <section class="articles-tips">
+        <div class="titles">
+            <span>CASAROYAL REAL ESTATE AGENCY</span>
+            <p><strong>Articles</strong> & Tips</p>
+        </div>
+        <div class="useless-section2">
+            <img src="Images/8 Articles/News Block 1.png">
+            <img src="Images/8 Articles/News Block 2.png">
+            <img src="Images/8 Articles/News Block 3.png">
+        </div>
+        <button class="all-buttons rebeldes">MORE ARTICLES & TIPS</button>
+
+    </section>
+    <section class="our-values">
+        <div class="titles">
+            <span>CASAROYAL REAL ESTATE AGENCY</span>
+            <p><strong>Our</strong> Values</p>
+        </div>
+        <div class="useless-section2">
+            <img src="Images/9 Values/Value Block 1.png">
+            <img src="Images/9 Values/Value Block 2.png">
+            <img src="Images/9 Values/Value Block 3.png">
+        </div>
+        <button class="all-buttons rebeldes">READ MORE</button>
+    </section>
+    <section class="testimonials">
+        <div class="useless-section4">
+            <img src="Images/10 Testimonials/Section - Testimonials.png">
+        </div>
+    </section>
+    <a href="#nav-bar">
+        <footer class="footer">
+            <div class="useless-section4">
+                <img src="Images/11 Footer/Footer.png">
+            </div>
+        </footer>
+    </a>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
